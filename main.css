@@ -1,70 +1,98 @@
 body{
-    background-color: #f0f0f0;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    padding: 20px;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  padding: 20px;
 }
 
 .home{
-  width: 100%;
-  display: flex;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 30px;
-  justify-content: center;
+width: 100%;
+display: flex;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 30px;
+justify-content: center;
 }
 
 .menarahanoi{
-  border: 2px solid #000;
-  padding: 10px;
+border: 2px solid #000;
+padding: 10px;
 }
 
 .group-3 img{
-  height: 300px;
+height: 300px;
 }
 
 .group-3 h3{
-  text-align: center;
+text-align: center;
 }
 
 
 .mazegame{
-  border: 2px solid #000;
-  padding: 10px;
+border: 2px solid #000;
+padding: 10px;
 }
 
 .group-4 img{
-  height: 300px;
+height: 300px;
 }
 
 .group-4 h3{
-  text-align: center;
+text-align: center;
 }
 
 .menara-hanoi{
-  display:  flex;
-  width: 100%;
+display:  flex;
+width: 100%;
 }
 
 .menara-hanoi .group-1{
-  margin-left: 10px;
-  font-size: 2rem;
+margin-left: 10px;
+font-size: 2rem;
 }
 
 .menara-hanoi .group-1 .cara-main{
-  font-style: bold;
+font-style: bold;
 }
 
 .maze-game{
-  display:  flex;
-  width: 100%;
+display:  flex;
+width: 100%;
 }
 
 .maze-game .group-2{
-  margin-left: 10px;
-  font-size: 2rem;
+margin-left: 10px;
+font-size: 2rem;
 }
 
 .maze-game .group-2 .cara-main{
-  font-style: bold;
+font-style: bold;
+}
+
+.listButton {
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+
+.buttonLink{
+background-color: #4CAF50;
+border: none;
+border-radius: 15px;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer; 
+}
+
+.buttonLink:hover {background-color: #3e8e41}
+
+.buttonLink:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
